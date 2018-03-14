@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 
+const hobbies = [leer, pasear].map((item, i) => {
+	return <li key={i}>{item}</li>
+})
 const List = () => (
-  <ul>
-   <li>Leer</li>
-   <li>Ver Peliculas</li>
-   <li>pasear</li>
+  <ul>{
+  	hobbies
+  }
   </ul>
 )
 
